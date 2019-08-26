@@ -1,0 +1,247 @@
+*, *::before, *::after {
+    box-sizing: border-box; }
+  
+  .btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: all 1s; }
+  
+  .btn:hover {
+    background-position: 0 100%;
+    color: #f1c40f; }
+  
+  body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif, #2c2c54; }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px; }
+  
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px; }
+  
+  .navigation {
+    background-color: #48504b ;
+    padding-top: 12px;
+    padding-bottom: 12px; }
+  
+  .navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; }
+  
+  .navigation li {
+    display: inline-block;
+    margin: 36px;
+    position: relative; }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #e8eef3; }
+  
+  .navigation a:hover {
+    color: #27ae60; }
+  
+  .navigation ul ul li {
+    display: block;
+    margin: 12px;
+    padding: 0 24px; }
+  
+  .navigation li ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px; }
+  
+  .navigation li:hover ul {
+    display: block;
+    text-align: center;
+    background: white; }
+  
+  .navigation ul ul li a {
+    color: #2980b9; }
+  
+  .navigation ul ul li a:hover {
+    color: #27ae60; }
+  
+  .splash {
+    background-image : url(https://images.pexels.com/photos/168765/pexels-photo-168765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color: #2c3e50;
+    height: 500px;
+    display: flex; }
+  
+  .splash-inner {
+    margin: auto;
+    max-width: 70%; }
+  
+  .page-title {
+    margin: 0;
+    font-size: 72px;
+    line-height: 1.2;
+    word-spacing: 10px;
+    font-weight: 700; }
+  
+  .page-subtitle {
+    /* Style for "It’s nice" */
+    width: 844px;
+    height: 55px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "It’s nice" */
+    letter-spacing: -1.88px 
+  }
+  
+  .page-subtitle span {
+    font-size: 25px;
+    color: #2980b9; }
+  
+  .btn-one {
+    color: #5a5f5c;
+   }
+  
+  .list {
+    display: none; }
+  
+  .box, .box-second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  
+  .box1 {
+    flex: 0 0 33.333%;
+    position: relative; }
+  
+  .box h3 {
+    font-size: 24px;
+    margin: 0 0 12px 0; }
+  
+  .box p {
+    position: absolute;
+    top: -160px;
+    font-size: 144px;
+    line-height: 1;
+    color: #81ecec;
+    opacity: 0.3; }
+  
+  
+  .work-left {
+    position: relative;
+    min-height: 300px; }
+  
+  .work-image {
+    position: absolute;
+    max-width: 250px;
+    height: 100%; }
+  
+  .work-image img {
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%; }
+  
+  .work-left .work-description {
+    padding: 36px 0 36px 55%;
+    text-align: left; }
+  
+  .btn-five {
+    border: none;
+    margin: 36px;
+    padding: 0;
+    text-align: left; }
+  
+  .work-image::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #81ecec;
+    opacity: 0.3;
+    top: -3%;
+    right: -3%; }
+  
+  .work-image img {
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 1; }
+  
+  .contact {
+    display: flex;
+    background: #fab1a0;
+    }
+  
+  .data {
+    flex: 2 0 0;
+    padding-right: 96px;
+    display: inline-block; }
+  
+  .address {
+    flex: 1 0 0;
+    line-height: 1.2;
+    display: inline-block; }
+  
+  .address h5 {
+    font-size: 20px; }
+  
+  .contact {
+    background: #fab1a0;
+    color: #2c3e50; }
+  
+  .data input {
+    padding: 10px;
+    background: #fab1a0;
+  }
+  
+  .form-group {
+      padding : 20px;
+  }
+  
+  .data li {
+    list-style-type: none; }
+  
+  .foot {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #fab1a0; }
+  
+  .foot li {
+    float: left; }
+  
+  .foot a {
+    display: block;
+    color: #2c3e50;
+    padding: 14px 16px;
+    text-decoration: none;
+    transform: scale(1.2); }
+  
+  .foot {
+    display: flex;
+    justify-content: center; }
+  
+  @media (max-width: 767px) {
+    .box, .box-second {
+      flex-direction: column; } }
